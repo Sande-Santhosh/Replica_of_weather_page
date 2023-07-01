@@ -1,0 +1,23 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  .chartBox {
+    width: 60%;
+    position: absolute;
+    bottom: 0%;
+    margin-left: 20%;
+    margin-bottom: 10px;
+   
+    height: 6vw;
+    z-index: 0;
+  }
+
+ .gobottom{
+  position: absolute;
+  bottom: 0%;
+  margin-bottom: 10%;
+ }

@@ -1,0 +1,35 @@
+/* last box */
+.bottom{
+    position: absolute;
+    width: 75%;
+    bottom: 0;
+    height:17px;
+    margin-left: 13%;
+    margin-bottom: 17px;
+
+}
+.progressbar{
+    width: 100%;
+    position: absolute;
+    height:10px;
+    background-color: #e0e2e4;
+    border-radius: 50px;
+}
+
+.progress{
+    position: absolute;
+    height: 100%;
+    width: 42%;
+    background-color: rgba(114,212,199,0.7);
+    border-radius: 50px;
+}
+
+.integers{
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    font-size: 10px;
+
+}
+
+/* lastbox */

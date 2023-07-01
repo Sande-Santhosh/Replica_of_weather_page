@@ -1,0 +1,57 @@
+.container-toggle{
+    display: flex;
+    position: absolute;
+    margin-left: 17vw;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.toggle{
+    display: flex;
+    align-items: center;
+}
+
+.container-toggle .toggle{
+ 
+    position:absolute;
+    width:45px;
+    height:20px;
+    background-color: #e0e2e4;
+    border-radius: 30px;
+    transition: 0.3s;
+
+}
+
+.container-toggle  .toggle  .toggle-button{
+    position: absolute;
+    margin-left: 2px;
+    width: 39%;
+    height: 80%;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container-toggle .toggle-textl{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 90px;
+}
+
+.container-toggle  .toggle.active{
+    background-color: rgba(114,212,199,0.9);
+}
+
+.container-toggle  .toggle.active .toggle-button{
+    left: 23px;
+    
+}
+
+.container-toggle .toggle-textr{
+    position: absolute;
+    font-size: 15px;
+    margin-right: 90px;
+}

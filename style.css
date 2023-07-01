@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+html * {
+   font-family: Nunito, sans-serif;
+ }
+body{
+   background-color: #B4D7FE;
+   margin:0;
+   
+}
+
+.container{
+   position:relative;
+   width:100vw;
+   height:100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin:0 auto;
+   
+}
+
+.left{
+   position: absolute;
+   width: 52vw;
+   height: 85vh;
+   margin-left: 13vw;
+   left: 0%;
+   border-top-left-radius: 5vh;
+   border-bottom-left-radius:5vh;
+}
+
+.right{
+   position:absolute;
+   margin-right: 13vw;
+   width: 52vw;
+   height: 85vh;
+   right: 0;
+   background-color: #daecff;
+   border-radius: 5vh;
+}
+
+.icons{
+   position: relative;
+   padding-top: 4%;
+   width: 75%; 
+   display: flex;
+   align-items: center;
+}
+
+.ic1{
+   padding-left: 4%;
+   width: 5%;
+   
+}
+.ic2{
+   padding-left: 10%;
+   width: 5%;
+}
+
+.textwarpping{
+   position: relative;
+   display: flex;
+  
+}
+
+.iclo{
+  max-width: fit-content;
+  width: 1vW;
+  left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  
+   
+}
+
+.imgdiv{
+  
+   left: 0%;
+  padding-left: 1.9vw;
+  margin-top: 3.5vh;
+  
+  
+}
+
+.placediv{
+   margin-top: 3.5vh;
+   margin-bottom: 0%;
+   padding-left:0.5%;
+   
+}
+
+.srdiv{
+   position: absolute;
+   margin-top: 3.5vh;
+   margin-bottom: 0;
+   padding-left: 35%;
+}
+
+.date{
+   
+   left: 0%;
+  padding-left: 1.9vw;
+}
+
+.sddiv{
+   position: absolute;
+   margin-bottom: 0;
+   padding-left: 35%;
+}
+
+.textleft{
+  
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+  
+  
+}
+
+.bacgr{
+  position: absolute;
+   width: 40vw;
+   height: 85vh;
+   object-fit: fill;
+   border-bottom-left-radius: 5vh;
+   border-top-left-radius:5vh ;
+   z-index: 0;
+}
+
+
+/* actual */
+
+.actual{
+   position: relative;
+   margin-top: 8vh;
+   margin-left: 5vw;
+}
+
+   .cel{
+      display: flex;
+      align-items: center;
+   }
+
+   .textsize{
+      font-size: 5rem;
+   }
+
+   .icsun{
+      position:relative;
+      margin-right: 5px;
+      width: 3vh;
+   }
+
+   .sunny{
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 12%;
+   }
+
+   /* right */
+
+   /* profile */
+   .image{
+      width:2.6vw;
+      height:2.6vw;
+      background-color: black;
+      border-radius: 50px;
+      margin-left: 2.5%;
+      margin-right: 6%;
+      
+   }
+   .profileimage{
+      
+      width:2.6vw;
+      height:2.6vw;
+      border-radius: 10px;
+     
+   }
+
+   .profile{
+      display: flex;
+      position: relative;
+      margin-bottom: 1%;
+      align-items: center;
+      padding-left: 7%;
+      margin-top: 2%;
+   }
+
+   .textright{
+      padding-bottom: 2%;
+      margin: 0%;
+      color: rgb(0, 0, 0);
+      font-size: smaller;
+
+}
+.textbold{
+   font-size: large;
+   font-weight: 600;
+}
+.dot{
+   padding-left: 43%;
+}
+
+/* profile end*/
+
+/* timeline */
+.timeline{
+   position: absolute;
+   width: 87%;
+   height: 32vh;
+   background-color: rgba(255, 255, 255, 0.8);
+   margin-left: 6%;
+   border-radius: 5vh;
+}
+
+
+/* first container */
+
+.left-rightbox{                                            
+   display: flex;
+   position: absolute;
+   width: 100%;
+   margin-top: 2%;
+}
+
+.dotimage{
+   width:35px
+}
+
+.pretext{
+   opacity: 0.5;
+   font-size: small;
+}
+.nextday{
+   font-size: small;
+}
+
+.box1{
+   display: flex;
+   position: absolute;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   margin-left: 4%;
+}
+
+.box2{
+
+   display: flex;
+   position: absolute;
+   padding: 0.3%;
+   justify-content: center;
+   align-items: center;
+   background-color: #F1F1F1;
+   border-radius: 6px;
+   margin-left: 53%;
+   width: 24%;
+   
+}
+
+.box3{
+   display: flex;
+   position: absolute;
+   margin-left: 80%;
+   padding: 0.3%;
+   justify-content: center;
+   align-items: center;
+   background-color: #cfcfcf;
+   border-radius: 6px;
+   width: 15%;
+   
+}
+
+/* first container */
+
+/* time */
+.readings{
+   position: absolute;
+   width: 100%;
+   margin-top: 6%;
+   margin-left: 0.7%;
+}
+.climate{
+   display: flex;
+   position: absolute;
+   width:100%;
+   align-items: center;
+   margin-top: 3%;
+   justify-content:space-around;
+   
+   
+}
+
+.climate-text-up{
+   font-size: 60%;
+   padding: 0%;
+   margin: 0%;
+   padding-bottom: 30%;
+}
+
+.climate-text-down{
+   font-weight:550;
+   padding: 0%;
+   margin: 0%;
+   padding-top:10%;
+}
+
+.sun-svg{
+   width: 20px;
+}
+
+/* time */
+
+/* chart */
+
+.chart{
+   position: absolute;
+   display: flex;
+   bottom: 0%;
+   margin-bottom: 3%;
+   height: 11vh;
+   width:42vw;
+   margin-left: 3vh;
+   margin-top: 13vh;
+}
+
+/* chart */
+
+/* middletext */
+.middle-text{
+   position: absolute;
+   margin-top: 33.3vh;
+   margin-left:7% ;
+   
+}
+
+
+/* grid */
+.container-grid{
+   position: absolute;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   /* border: 1px solid black; */
+   width: 87%;
+   height: 42%;
+   margin-top: 38%;
+   padding-bottom: 2%;
+   padding-left: 6%;
+   row-gap: 10%;
+   column-gap: 5%;
+
+}
+
+.box{
+   position: relative;
+   background-color: #F8FBFF;
+   border-radius: 5vh;
+}
+
+.boxinflex{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+}
+.toptext{
+   padding-left: 5px;
+}
+.boxintext{
+   font-size: 13px;
+}
+.boxintextright{
+   font-size: 20px;
+   font-weight: 600;
+   opacity: 0.8;
+}
+
+
+.boxinimagecontainer{
+   background-color: rgba(114,212,199,0.7);
+   border-radius: 10px;
+   margin-left: 30%;
+   padding: 6px;
+}
+
+.boxinimage{
+   width:20px;
+   height: 15px;;
+}
+
+.firstflex{
+   margin-top: 10px;
+   align-items: center;
+}
+.secondflex{
+   display: flex;
+   align-items: last baseline;
+}
+/* grid end */
+
+
+/* spedometerchart */
+
