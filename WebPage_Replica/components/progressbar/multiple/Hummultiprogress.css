@@ -1,0 +1,55 @@
+/* last box */
+.progresscontainer{
+    position: relative;
+    width: 75%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 5.5%;
+    margin-left: 13%;
+}
+.bottom1{
+    position: relative;
+    width: 100%;
+}
+.bottom2{
+    position: relative;
+    width: 100%;
+}
+.bottom3{
+    position: relative;
+    width: 100%;
+}
+
+.progressbarhumidity{
+    width: 100%; 
+    height: 10px;
+    position:absolute;
+     background-color: #e0e2e4; 
+     border-radius: 50px;
+}
+
+.progresshumidity{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(114,212,199,0.7);
+    border-radius: 50px;
+}
+
+.notfillhumidity{
+    width:0%
+}
+.fillhumidity{
+    width:60%;
+}
+
+.integershumidity{
+    display: flex;
+    width: max-content;
+    font-size: 70%;
+
+}
+
+/* lastbox */

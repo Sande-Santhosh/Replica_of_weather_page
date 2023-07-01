@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Replica</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/components/toggle/toggle.css">
+  <link rel="stylesheet" href="/components/spedometer/style.css">
+  <link rel="stylesheet" href="/components/progressbar/multiple/Hummultiprogress.css">
+  <link rel="stylesheet" href="/components/progressbar/single/singleprogress.css">
+  <link rel="stylesheet" href="/components/progressbar/multiple/preprogress.css">
+  <link rel="stylesheet" href="/components/progressbar/multiple/uvprogress.css">
+</head>
+<body>
+ 
+  
+  <div class="container">
+    <div class="left">
+      <img class="bacgr" src ="/images/ityj.jpg" alt="">
+       <!-- icons -->
+      <div class="icons">
+        
+        <img class="ic1" src="/images/SVG/add_circle_white_24dp.svg" alt="">
+        <img class="ic2" src="/images/SVG/linear_scale_white_24dp.svg" alt="">
+        <!-- toggle start -->
+        <div class="container-toggle">
+          <div class="toggle-textr">°C</div>
+          <div class="toggle">
+            <div class="toggle-button" onclick="Animetoggle()"></div>
+          </div>
+          <div class="toggle-textl">°F</div>
+        </div>
+        <!-- toggle end -->
+        
+      </div>
+       <!-- icons -->
+       
+
+       <!-- text -->
+        <div class="textwarpping">
+        <div class="imgdiv"><img class=iclo src="/images/SVG/location_on_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div>
+        <div class="placediv"><p class="textleft">Chennai, TN</p></div>
+        <div class="srdiv"><p class="textleft">07:19</p></div>
+        </div>
+        <div class="textwarpping">
+          <div class="date"><p class="textleft">Today 29 sep</p></div>
+          <div class="sddiv"><p class="textleft">07:19</p></div>
+        </div>
+        <!-- text -->
+
+        <!-- temp -->
+        <div  class="actual">
+          <div class="cel">
+            <div class="dir"><img class="nav" src="/images/SVG/navigate_before_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div>
+            <div ><p class="textleft textsize">25°</p></div>
+            <div class="dir"><img class=" nav" src="/images/SVG/navigate_next_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div>
+          </div>
+         
+          <div class="sunny">
+            <div class="imgsun"><img class=icsun src="/images/SVG/cloudy_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div>
+            <div class="imgsun"><p class="textleft">Coludy</p></div>
+      
+            </div>
+          
+        </div>
+
+    </div>
+
+    <!-- right -->
+    <div class="right">
+
+      <div class="profile">
+        <div><p class="textright textbold">welcome back sande!</p>
+        <p class="textright">Check out today's weather information</p></div>
+          <div class=" dot"><img class='dotimage' src="/images/SVG/more_horiz_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div>
+         <div class = image><div ><img class ="profileimage" src="/images/pexels-simona-kidrič-2607544.jpg" alt=""></div></div>
+    </div>
+
+          <!-- timeline -->
+
+    <div class="timeline">
+      
+      <div class="left-rightbox">
+        <div class="box1">
+          <div ><p >Upcoming Hours</p></div>
+        </div>  
+        
+        <div class="box2 ">
+          <div><p class="pretext">Rain Precipetation ›</p></div>
+        </div>
+
+        <div class="box3">
+          <div><p class="nextday" >Next days ›</p></div>
+        </div>
+      </div>
+<!-- readings -->
+        <div class='readings'>
+          <div class="climate">
+            <div>
+            <p class="climate-text-up">Now</p>
+            <img class="sun-svg" src="/images/SVG/sunny_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <p class="climate-text-down">27°</p>
+          </div>
+          <div>
+            <p class="climate-text-up">11:00</p>
+            <img class="sun-svg" src="/images/SVG/sunny_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <p class="climate-text-down">28°</p>
+          </div>
+          <div>
+            <p class="climate-text-up">12:00</p>
+            <img class="sun-svg" src="/images/SVG/cloudy_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <p class="climate-text-down">28°</p>
+          </div>
+          <div>
+            <p class="climate-text-up">13:00</p>
+            <img class="sun-svg" src="/images/SVG/cloudy_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <p class="climate-text-down">29°</p>
+          </div>
+          <div>
+            <p class="climate-text-up">14:00</p>
+            <img class="sun-svg" src="/images/SVG/sunny_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <p class="climate-text-down">30°</p>
+          </div>
+          <div>
+            <p class="climate-text-up">15:00</p>
+            <img  class="sun-svg" src="/images/SVG/cloudy_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <p class="climate-text-down">29°</p>
+          </div>
+          <div>
+            <p class="climate-text-up">16:00</p>
+            <img class="sun-svg" src="/images/SVG/cloudy_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <p class="climate-text-down">29°</p>
+          </div>
+          <div>
+            <p class="climate-text-up">17:00</p>
+            <img class="sun-svg" src="/images/SVG/sunny_FILL0_wght400_GRAD0_opsz48.svg" alt="">
+            <p class="climate-text-down">28°</p>
+          </div>
+        </div> 
+          </div>
+          <!-- readings  ends-->
+          <!-- chart -->
+          <div class="chart">
+            <canvas id="timelinechart"></canvas>
+          </div>
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.min.js"></script>
+          <script src="/components/timeline/charts.js"></script>
+
+          <!-- chart end -->
+          
+      </div>
+      <!-- timeline end -->
+          
+      <!-- middletext -->
+      <div class="middle-text"><p class="text">More detail's of today's weather</p></div>
+      <!-- middletex ends -->
+
+         <!-- cards -->
+         <div class="container-grid">
+          <!-- box1 -->
+          <div class="box">
+            <div class="boxinflex firstflex"><p class="boxintext">Humidity</p>
+                      <div class="boxinimagecontainer"><img class="boxinimage" src="/images/SVG/humidity_low_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div></div>
+                      <div class="boxinflex secondflex"><p class=" boxintextright">82%</p>
+                                <p class="toptext">Bad</p></div>
+                                <div class="progresscontainerpre">
+                                  <!-- multiprogress -->
+                                  <div class="bottom1">
+                                      <div class="integerspre">
+                                        <div><p>good</p></div>
+                                      </div>
+                                     
+                                      <div class="progressbarpre">
+                                        <div class="progresspre "></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="bottom2">
+                                      <div class="integerspre">
+                                        <div><p>normal</p></div>
+                                      </div>
+                                     
+                                      <div class="progressbarpre">
+                                        <div class="progresspre fillpre"></div>
+                                      </div>
+                                    </div>
+                              
+                                    <div class="bottom3">
+                                      <div class="integerspre">
+                                        <div><p>bad</p></div>
+                                      </div>
+                                     
+                                      <div class="progressbarpre">
+                                        <div class="progresspre notfillpre"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+   </div>
+   <!-- box1 -->
+ <!-- box2 -->
+          <div class="box">
+            <div class="boxinflex firstflex"><p class="boxintext">Wind</p>
+              <div class="boxinimagecontainer"><img class="boxinimage" src="/images/SVG/air_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div></div>
+              <!-- speedometer -->
+              <div class="chartBox">
+                <canvas id="myChart"></canvas>
+              </div>
+               <!-- speedometer -->
+              <div class="boxinflex secondflex gobottom"><p class="boxintext boxintextright">8 km/h</p>
+                        </div>
+    </div>
+    <!-- box2 -->
+    <!-- box3 -->
+          <div class="box">
+            <div class="boxinflex firstflex"><p class="boxintext ">Precipitation</p>
+              <div class="boxinimagecontainer"><img class="boxinimage" src="/images/SVG/rainy_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div></div>
+              <div class="boxinflex secondflex"><p class=" boxintextright">1.4 cm</p>
+                        </div>
+                        <!-- multiple progress bar -->
+                        <div class="progresscontainer">
+                          <div class="bottom1">
+                              <div class="integershumidity">
+                                <div><p>00</p></div>
+                              </div>
+                             
+                              <div class="progressbarhumidity">
+                                <div class="progresshumidity"></div>
+                              </div>
+                            </div>
+                            <div class="bottom2">
+                              <div class="integershumidity">
+                                <div><p>10</p></div>
+                              </div>
+                             
+                              <div class="progressbarhumidity">
+                                <div class="progresshumidity fillhumidity"></div>
+                              </div>
+                            </div>
+                            <div class="bottom3">
+                              <div class="integers">
+                                <div><p>20</p></div>
+                              </div>
+                             
+                              <div class="progressbarhumidity">
+                                <div class="progresshumidity notfillhumidity"></div>
+                              </div>
+                            </div>
+                            <div class="bottom3">
+                              <div class="integershumidity">
+                                <div><p>30</p></div>
+                              </div>
+                             
+                              <div class="progressbarhumidity">
+                                <div class="progresshumidity notfillhumidity"></div>
+                              </div>
+                            </div>
+                            <div class="bottom3">
+                              <div class="integershumidity">
+                                <div><p>40</p></div>
+                              </div>
+                             
+                              <div class="progressbarhumidity">
+                                <div class="progresshumidity notfillhumidity"></div>
+                              </div>
+                            </div>
+                            <div class="bottom3">
+                              <div class="integershumidity">
+                                <div><p>50</p></div>
+                              </div>
+                             
+                              <div class="progressbar">
+                                <div class="progresshumidity notfillhumidity"></div>
+                              </div>
+                            </div>
+                            <div class="bottom3">
+                              <div class="integershumidity">
+                                <div><p>60</p></div>
+                              </div>
+                             
+                              <div class="progressbarhumidity">
+                                <div class="progresshumidity notfillhumidity"></div>
+                              </div>
+                            </div>
+                            <div class="bottom3">
+                              <div class="integershumidity">
+                                <div><p>70</p></div>
+                              </div>
+                             
+                              <div class="progressbarhumidity">
+                                <div class="progresshumidity notfillhumidity"></div>
+                              </div>
+                            </div>
+                            <div class="bottom3">
+                              <div class="integershumidity">
+                                <div><p>80</p></div>
+                              </div>
+                             
+                              <div class="progressbarhumidity">
+                                <div class="progresshumidity notfillhumidity"></div>
+                              </div>
+                            </div>
+                            <div class="bottom3">
+                              <div class="integershumidity">
+                                <div><p>90</p></div>
+                              </div>
+                             
+                              <div class="progressbarhumidity">
+                                <div class="progresshumidity notfillhumidity"></div>
+                              </div>
+                            </div>
+                          </div>
+  </div> 
+  <!-- box3 -->
+  <!-- box4 -->
+          <div class="box">
+            <div class="boxinflex firstflex"><p class="boxintext">UV index</p>
+              <div class="boxinimagecontainer"><img class="boxinimage" src="/images/SVG/sunny_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div></div>
+              <div class="boxinflex secondflex"><p class=" boxintextright">4</p>
+                        <p class=" toptext ">medium</p></div>
+                        <div class="progresscontaineruv">
+                          <div class="bottom1">
+                              <div class="integersuv">
+                                <div><p>0-2</p></div>
+                              </div>
+                             
+                              <div class="progressbaruv">
+                                <div class="progressuv "></div>
+                              </div>
+                            </div>
+                      
+                            <div class="bottom2">
+                              <div class="integersuv">
+                                <div><p>3-5</p></div>
+                              </div>
+                             
+                              <div class="progressbaruv">
+                                <div class="progressuv filluv"></div>
+                              </div>
+                            </div>
+                      
+                            <div class="bottom3">
+                              <div class="integersuv">
+                                <div><p>6-7</p></div>
+                              </div>
+                             
+                              <div class="progressbaruv">
+                                <div class="progressuv notfilluv"></div>
+                              </div>
+                            </div>
+                      
+                            <div class="bottom1">
+                              <div class="integersuv">
+                                <div><p>8-10</p></div>
+                              </div>
+                             
+                              <div class="progressbaruv">
+                                <div class="progressuv notfilluv"></div>
+                              </div>
+                            </div>
+                      
+                            <div class="bottom1">
+                              <div class="integersuv">
+                                <div><p>11+</p></div>
+                              </div>
+                             
+                              <div class="progressbaruv">
+                                <div class="progressuv notfilluv"></div>
+                              </div>
+                            </div>
+                          </div>
+  </div>
+  <!-- box4 -->
+  <!-- box5 -->
+          <div class="box">
+            <div class="boxinflex firstflex"><p class="boxintext ">Feels like</p>
+              <div class="boxinimagecontainer"><img class="boxinimage" src="/images/SVG/device_thermostat_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div></div>
+              <div class="boxinflex secondflex"><p class=" boxintextright">30°</p>
+                        </div>
+                        <div class="bottom">
+                          <div class="integers">
+                            <div><p>0%</p></div>
+                            <div><p>25%</p></div>
+                            <div><p>50%</p></div>
+                          </div>
+                         
+                          <div class="progressbar">
+                            <div class="progress"></div>
+                          </div>
+                        </div>
+   </div>
+   <!-- box5 -->
+    <!-- box6 -->     
+    <div class="box">
+      <div class="boxinflex firstflex"><p class="boxintext ">chance of rain</p>
+        <div class="boxinimagecontainer"><img class="boxinimage" src="/images/SVG/sunny_FILL0_wght400_GRAD0_opsz48.svg" alt=""></div></div>
+        <div class="boxinflex secondflex"><p class=" boxintextright">42%</p>
+                  </div>
+                  <div class="bottom">
+                    <div class="integers">
+                      <div><p>0%</p></div>
+                      <div><p>25%</p></div>
+                      <div><p>50%</p></div>
+                      <div><p>75%</p></div>
+                      <div><p>100%</p></div>
+                    </div>
+                   
+                    <div class="progressbar">
+                      <div class="progress"></div>
+                    </div>
+                  </div>
+</div> 
+        <!-- box6 -->
+   </div>
+        
+        </div>
+        <!-- cards End -->
+    </div>
+    <!-- right div ends -->       
+</div >
+    
+
+<!-- toggle -->
+<script src="/components/toggle/toggle.js"></script>
+
+<!-- spedometer -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js/dist/chart.umd.min.js"></script>
+<script src="/components/spedometer/spedometer.js"></script>
+
+</body>
+</html>
+
